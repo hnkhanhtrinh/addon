@@ -15,8 +15,6 @@ namespace WindowsFormsApp1
         public Form2()
         {
             InitializeComponent();
-            Form2 FM2 = new Form2();
-            FM2.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -35,6 +33,11 @@ namespace WindowsFormsApp1
         private void BTN_CANCLE_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BTN_LOGIN_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

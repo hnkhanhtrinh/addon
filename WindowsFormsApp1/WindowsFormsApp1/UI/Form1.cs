@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
         {
            
             InitializeComponent();
+            new Form2().ShowDialog();
             lastestMachineState = new List<MachineState>();
             using (var db = new MyDbContext())
             {

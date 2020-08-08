@@ -41,26 +41,29 @@
             // TXTUSER
             // 
             this.TXTUSER.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TXTUSER.Location = new System.Drawing.Point(380, 76);
+            this.TXTUSER.Location = new System.Drawing.Point(285, 62);
+            this.TXTUSER.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TXTUSER.Name = "TXTUSER";
-            this.TXTUSER.Size = new System.Drawing.Size(204, 38);
+            this.TXTUSER.Size = new System.Drawing.Size(154, 32);
             this.TXTUSER.TabIndex = 0;
             // 
             // TXTPASS
             // 
             this.TXTPASS.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TXTPASS.Location = new System.Drawing.Point(380, 167);
+            this.TXTPASS.Location = new System.Drawing.Point(285, 136);
+            this.TXTPASS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TXTPASS.Name = "TXTPASS";
-            this.TXTPASS.Size = new System.Drawing.Size(204, 38);
+            this.TXTPASS.Size = new System.Drawing.Size(154, 32);
             this.TXTPASS.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(79, 76);
+            this.label1.Location = new System.Drawing.Point(59, 62);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 36);
+            this.label1.Size = new System.Drawing.Size(156, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "USERNAME";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -69,28 +72,32 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(79, 153);
+            this.label2.Location = new System.Drawing.Point(59, 124);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 36);
+            this.label2.Size = new System.Drawing.Size(159, 29);
             this.label2.TabIndex = 3;
             this.label2.Text = "PASSWORD";
             // 
             // BTN_LOGIN
             // 
             this.BTN_LOGIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTN_LOGIN.Location = new System.Drawing.Point(85, 277);
+            this.BTN_LOGIN.Location = new System.Drawing.Point(64, 225);
+            this.BTN_LOGIN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_LOGIN.Name = "BTN_LOGIN";
-            this.BTN_LOGIN.Size = new System.Drawing.Size(147, 46);
+            this.BTN_LOGIN.Size = new System.Drawing.Size(110, 37);
             this.BTN_LOGIN.TabIndex = 4;
             this.BTN_LOGIN.Text = "LOGIN";
             this.BTN_LOGIN.UseVisualStyleBackColor = true;
+            this.BTN_LOGIN.Click += new System.EventHandler(this.BTN_LOGIN_Click);
             // 
             // BTN_CANCLE
             // 
             this.BTN_CANCLE.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTN_CANCLE.Location = new System.Drawing.Point(505, 277);
+            this.BTN_CANCLE.Location = new System.Drawing.Point(379, 225);
+            this.BTN_CANCLE.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_CANCLE.Name = "BTN_CANCLE";
-            this.BTN_CANCLE.Size = new System.Drawing.Size(166, 46);
+            this.BTN_CANCLE.Size = new System.Drawing.Size(124, 37);
             this.BTN_CANCLE.TabIndex = 5;
             this.BTN_CANCLE.Text = "CANCEL";
             this.BTN_CANCLE.UseVisualStyleBackColor = true;
@@ -99,7 +106,8 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.dona_orient;
-            this.pictureBox1.Location = new System.Drawing.Point(658, 8);
+            this.pictureBox1.Location = new System.Drawing.Point(494, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(132, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -108,9 +116,9 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 376);
+            this.ClientSize = new System.Drawing.Size(600, 306);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BTN_CANCLE);
             this.Controls.Add(this.BTN_LOGIN);
@@ -118,6 +126,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TXTPASS);
             this.Controls.Add(this.TXTUSER);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
